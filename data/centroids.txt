@@ -1,0 +1,29 @@
+Iraq: "Longitude":43.7435314888,"Latitude":33.0397058232
+
+Syria: "Longitude":38.5078820425,"Latitude":35.025473894
+
+Turkey: "Longitude":35.1689534649,"Latitude":39.0616029013
+
+Greece: "Longitude":22.9555579369,"Latitude":39.0746962307
+
+Spain: "Longitude":-3.64755047323,"Latitude":40.2444869811
+
+Italy: "Longitude":12.0700133907,"Latitude":42.796626414
+
+Portugal: "Longitude":-8.50104361268,"Latitude":39.5955067145
+
+Morocco: "Longitude":-8.45615794798,"Latitude":29.8376295469
+
+Algeria: "Longitude":2.6173230092,"Latitude":28.1589384945
+
+Tunisia: "Longitude":9.55288358933,"Latitude":34.1195624649
+
+Libya: "Longitude":18.0086616872,"Latitude":27.0309449491
+
+Egypt: "Longitude":29.8619009908,"Latitude":26.4959331064
+
+Romania: "Longitude":24.9729303933,"Latitude":45.8524312742
+
+France: 46 00 N, 2 00 E; 
+
+Bulgaria: "Longitude":25.2155290863,"Latitude":42.7689031797

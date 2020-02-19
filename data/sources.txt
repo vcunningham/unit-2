@@ -1,0 +1,6 @@
+# pages for the original threatened_species csv
+http://data.un.org/
+http://data.un.org/_Docs/SYB/PDFs/SYB62_313_201907_Threatened%20Species.pdf
+
+# the page for the centroids geojson of all countries
+https://worldmap.harvard.edu/data/geonode:country_centroids_az8

@@ -1,0 +1,529 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Iraq",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 35},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 60},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 69},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 72},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 72},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 73},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 78}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.74353149,
+          33.03970582
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Syria",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 29},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 78},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 108},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 127},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 132},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 139},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 144}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.50788204,
+          35.02547389
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Turkey",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 92},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 150},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 370},
+        "yr2016":{
+			"Year": 382,
+			"Value": 72},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 388},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 400},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 426}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.16895346,
+          39.0616029
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Greece",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 75},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 156},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 291},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 361},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 374},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 502},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 512}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95555794,
+          39.07469623
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Spain",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 153},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 240},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 551},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 592},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 617},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 681},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 736}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.647550473,
+          40.24448698
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Italy",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 114},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 174},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 279},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 305},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 359},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 420},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 458}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.07001339,
+          42.79662641
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Portugal",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 148},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 171},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 256},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 272},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 281},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 399},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 456}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.59550671,
+		  8.501043613
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Morocco",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 50},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 157},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 176},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 199},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 207},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 223},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 227}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.456157948,
+          29.83762955
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Algeria",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 50},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 105},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 114},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 125},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 135},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 143},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 145}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.617323009,
+          28.15893849
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Tunisia",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 36},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 75},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 83},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 94},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 96},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 101},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 101}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.552883589,
+          34.11956246
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Libya",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 25},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 44},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 54},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 62},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 63},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 65},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 69}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.03094495,
+          18.00866169
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Egypt",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 46},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 121},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 141},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 155},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 156},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 163},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 169}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.86190099,
+          26.49593311
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Romania",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 63},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 64},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 85},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 92},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 104},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 125},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 138}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.97293039,
+          45.85243127
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "France",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 120},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 168},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 236},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 260},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 278},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 299},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 342}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.00000000,
+          46.0000000
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "Country": "Bulgaria",
+		"Series": "Threatened Species: Total (number)",
+		"yr2004": {
+			"Year": 2004,
+			"Value": 44},
+		"yr2010":{
+			"Year": 2010,
+			"Value": 66},
+		"yr2015":{
+			"Year": 2015,
+			"Value": 85},
+        "yr2016":{
+			"Year": 2016,
+			"Value": 93},
+        "yr2017":{
+			"Year": 2017,
+			"Value": 104},
+        "yr2018":{
+			"Year": 2018,
+			"Value": 115},
+        "yr2019":{
+			"Year": 2019,
+			"Value": 124}
+      },
+	  "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.21552909,
+          42.76890318
+        ]
+      }
+    }]
+}
