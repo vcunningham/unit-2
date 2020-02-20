@@ -1,1 +1,24 @@
-#mapid { height: 500px; width: 800px}
+#mapid {
+	height: 500px;
+	width: 800px;
+	display: inline-block;
+}
+
+#panel {
+    width: 16%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+}
+
+#forward {
+	float: right;
+	margin-left: 5px;
+}
+
+#reverse {
+	float: left;
+	margin-right: 5px;
+}
