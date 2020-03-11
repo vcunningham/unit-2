@@ -1,0 +1,4 @@
+https://macwright.org/2012/08/13/images-as-maps.html
+https://docs.mapbox.com/help/tutorials/indoor-floorplans/
+
+https://docs.mapbox.com/studio-manual/reference/tilesets/

@@ -3,33 +3,170 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-            <title>VWC G575 - unit2 map v2</title>
-
-        <!--put your external stylesheet links here-->
+            <title>VWC G575 - Leaflet Lab</title>
         <link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="libs/leaflet/leaflet.css">
-        <!--[if IE<9]>
-            <link rel="stylesheet" href="css/style.ie.css">
-        <![endif]-->
-
-         <!--you can also place internal styles here;
-             place these within <style> tags-->
         
     </head>
 
     <body>
-        <!--put your initial page content here-->
-		<h1><b>Threatened Species near the Mediterranean Sea</b></h1>
+		<h1 style="text-align:center"><b>Threatened Species near the Mediterranean Sea</b></h1>
 		<div id="mapid"></div>
-		<div id="panel"</div>
-		<div id="legend"</div>
-        <!--you can also use this space for internal scripts;
-        place these within <script> tags-->
 
-        <!--put your external script links here-->
+		<div id="content-pane">
+			<!-- The full content of the Italy display-->
+			<div id="supp-text-Italy" style="display:none">
+				<div id="Italy-stat"><b></b></div>
+				<h2>Highlight: Italian Wolf</h2>
+				<img src="img/italian_wolf.jpg" alt="Italian Wolf Image" width="256" height="185">
+				<p>This subspecies of grey wolf has been steadily increasing population since reaching a record low of 70-100 individuals in the 1970s.
+				The population today is estimated to consist of 500 individuals, although they are still threatened by illegal hunting and considered 'Vulnerable' by the IUCN.</p>
+			</div>
+		
+			<!-- The full content of the Greece display-->
+			<div id="supp-text-Greece" style="display:none">
+				<div id="Greece-stat"></div>
+				<h2>Highlight: European Ground Squirrel</h2>
+				<img src="img/euro_squirrel.jpg" alt="European Ground Squirrel Image" width="256" height="185">
+				<p>This species of squirrel is found is many countries in Eastern Europe grouped in colonies of burrows on grassy embankments or in pastures.
+				Due to mass conversion of the habitats that they live in the European Ground Squirrel has been listed as 'Vulnerable' by the IUCN, with a downward trend in population
+				believed to be upwards of 30% over the past decade.</p>
+			</div>
+		
+			<!-- The full content of the France display-->
+			<div id="supp-text-France" style="display:none">
+				<div id="France-stat"></div>
+				<h2>Highlight: Mediterranean Monk Seal</h2>
+				<img src="img/med_seal.jpg" alt="Mediterranean Monk Seal Image" width="256" height="185">
+				<p>Listed as 'Endangered' by the IUCN this species of seal is believed to have less than 700 individuals remaining, grouped into three or four subpopulations.
+				Having faced commercial hunting since the times of the Roman Empire and the Middle Ages the range and population of this species has been shrinking for a long time.
+				This species is almost non-existent in the waters near France, now mostly centered on the Mediterranean and Aegean seas.</p>
+			</div>
+		
+			<!-- The full content of the Romania display-->
+			<div id="supp-text-Romania" style="display:none">
+				<div id="Romania-stat"></div>
+				<h2>Highlight: Sculpin-Perch</h2>
+				<img src="img/asprete.jpg" alt="Asprete Image" width="300" height="185">
+				<p>With only one population remaining which is reliant on water released by an upstream reservoir this species of fish native to a single river in Romania
+				is labeled as 'Critically Endangered' by the IUCN. It is considered to be the fish species with the most restricted range in Europe, mostly due to habitat destruction as a result
+				of hydrotechnical construction.</p>
+			</div>
+		
+			<!-- The full content of the Algeria display-->
+			<div id="supp-text-Algeria" style="display:none">
+				<div id="Algeria-stat"></div>
+				<h2>Highlight: Northwest African Cheetah</h2>
+				<img src="img/nw_cheetah.jpg" alt=" Image" width="256" height="185">
+				<p>Due to large habitat ranges and extremely small populations the total population of Northwest African Cheetahs is not known, but the IUCN has listed it as 'Critically Endangered'
+				as there were estimated to be less than 500 individuals in 2012. This was based on data collected between 2007-2012 and covering approximately 400,000 square miles of habitat.
+				Due to larger resource problems and higher temperatures than other cheetah species, these cheetahs have adapted to travel larger distances and live in lower densities.</p>
+			</div>
+		
+			<!-- The full content of the Morocco display-->
+			<div id="supp-text-Morocco" style="display:none">
+				<div id="Morocco-stat"></div>
+				<h2>Highlight: Barbary Sheep</h2>
+				<img src="img/barb_sheep.jpg" alt=" Image" width="256" height="185">
+				<p>This species of sheep native to Northern Africa is labeled as 'Vulnerable' by the IUCN due to human interference in populations and habitat.
+				They have been introduced to many varied places, including southeastern Spain and parts of the southern US, often considered a game animal and a threat to endemic vegetation.</p>
+			</div>
+		
+			<!-- The full content of the Tunisia display-->
+			<div id="supp-text-Tunisia" style="display:none">
+				<div id="Tunisia-stat"></div>
+				<h2>Highlight: Eurasian Otter</h2>
+				<img src="img/euro_otter.jpg" alt=" Image" width="300" height="185">
+				<p>Although now classified as 'Not Threatened' by the IUCN, the Eurasian Otter was extremely threatened due to high pesticide usage from the 20th century to just a few decades ago.
+				The recovery of populations and reintroduction to many previous habitats is mostly attributed to the banning of the most harmful pesticides and improvements in water quality since 
+				the late 1970s.</p>
+			</div>
+		
+			<!-- The full content of the Libya display-->
+			<div id="supp-text-Libya" style="display:none">
+				<div id="Libya-stat"></div>
+				<h2>Highlight: Addax</h2>
+				<img src="img/addax.jpg" alt=" Image" width="256" height="185">
+				<p>Classed as 'Critically Endangered' by the IUCN, this species of antelope is very common in captivity but extremely rare in the wild due to unregulated hunting. 
+				Reintroductions to national parks and other preserved locations in their natural habitat are currently underway in a few places in Morocco and Tunisia, but due to the 
+				ease with which they may be hunted, fewer than 500 are believed to live in the wild currently.</p>
+			</div>
+		
+			<!-- The full content of the Egypt display-->
+			<div id="supp-text-Egypt" style="display:none">
+				<div id="Egypt-stat"></div>
+				<h2>Highlight: Dugong</h2>
+				<img src="img/dugong.jfif" alt=" Image" width="256" height="185">
+				<p>Although now extinct in the Mediterranean Sea, Dugongs are still found along the east coasts of Africa. Dependent on seagrass,
+				populations have been decreasing due to hunting and habitat destruction. Labeled as 'Vulnerable' by the IUCN, Dugongs are long-lived and slow breeders,
+				causing even slight reductions in population to have large long-term effects.
+				</p>
+			</div>
+		
+			<!-- The full content of the Iraq display-->
+			<div id="supp-text-Iraq" style="display:none">
+				<div id="Iraq-stat"></div>
+				<h2>Highlight: Euphrates Softshell Turtle</h2>
+				<img src="img/euph_turtle.jpg" alt=" Image" width="256" height="185">
+				<p>Threatened by habitat loss and alteration, especially the building of dams and pollution, the Euphrates Softshell Turtle is listed as 'Endangered' by the IUCN.
+				Although this species does not seem to have problems nesting near human disturbances, there are many proposed dams that will lead to flooding of the nesting habitat
+				of the Euphrates Softshell Turtle in coming years.</p>
+			</div>
+		
+			<!-- The full content of the Turkey display-->
+			<div id="supp-text-Turkey" style="display:none">
+				<div id="Turkey-stat"></div>
+				<h2>Highlight: Dhole</h2>
+				<img src="img/dhole.jpg" alt=" Image" width="256" height="185">
+				<p>With a current population of less than 2,500 adults, the IUCN has classed this species as 'Endangered'. Due to disease transfer from domestic dogs, loss of prey and habitat,
+				and competition with other species the Dhole populations have been on the decline for some time. There have been attempts made to use dogs as surrogate mothers to conserve the species, 
+				but not progress has been reported since 2016. Dholes are often considered a threat to livestock but not valued for their fur or meat, and some people will appropriate their kills.</p>
+			</div>
+		
+			<!-- The full content of the Syria display-->
+			<div id="supp-text-Syria" style="display:none">
+				<div id="Syria-stat"></div>
+				<h2>Highlight: Sand Cat</h2>
+				<img src="img/sand_cat.jpg" alt=" Image" width="256" height="185">
+				<p>The Sand Cat is the only cat species to live chiefly in true deserts. Previously there were problems with a declining population trend and fragmented groupings, but as of 2016 the IUCN has downlisted
+				the Sand Cat to 'Least Concern', although habitat loss degradation is still a major threat to the species. Hunting of this species is not prohibited in all countries, and the IUCN data is focused on global populations.</p>
+			</div>
+		
+			<!-- The full content of the Spain display-->
+			<div id="supp-text-Spain" style="display:none">
+				<div id="Spain-stat"></div>
+				<h2>Highlight: Broom Hare</h2>
+				<img src="img/euro_hare.jpg" alt="European Hare Image" width="256" height="185">
+				<p>Hunted excessively in the small ranges that this species lives in, it has been labeled 'Vulnerable' by the IUCN. The region this species is found in is estimated to be a mere 140 miles,
+				mainly in very high elevations. Discovered in 1976, it had been previously reported as another population of the European Hare(pictured).</p>
+			</div>
+		
+			<!-- The full content of the Portugal display-->
+			<div id="supp-text-Portugal" style="display:none">
+				<div id="Portugal-stat"></div>
+				<h2>Highlight: Iberian Lynx</h2>
+				<img src="img/iber_lynx.jpg" alt=" Image" width="256" height="350">
+				<p>After reaching a population of only 100 individuals at the turn of the century, conservation efforts have managed to triple the population since 2002. The IUCN lists the Iberian Lynx as 'Endangered'.
+				Over a period of 50 years during the late 1900s the species dropped from 15 subpopulations ranging from Southern France to the Mediterranean
+				to only two subpopulations limited in range to a portion of the Iberian Peninsula.</p>
+			</div>
+		
+			<!-- The full content of the Bulgaria display-->
+			<div id="supp-text-Bulgaria" style="display:none">
+				<div id="Bulgaria-stat"></div>
+				<h2>Highlight: Saker Falcon</h2>
+				<img src="img/saker_falcon.jpg" alt=" Image" width="256" height="185">
+				<p>Since the collapse of the Soviet Union the UAE has been the destination for many illegaly captured and sold falcons from many regions. Kazakhstan is reported as losing 1,000 individuals of the species each year.
+				The IUCN labels the Saker Falcon as 'Endangered' due to the rapid population decline found especially in the breeding grounds of the species. Additionally the Saker Falcon is known to be very susceptible
+				to avian influenza, with vaccines being difficult to administer to individuals found in the wild.</p>
+			</div>
+		</div>
+		
+		<!-- the libs used -->
 		<script type="text/javascript" src="libs/leaflet/leaflet-src.js"></script>
 		<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
 		
+		<!-- my main script-->
 		<script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

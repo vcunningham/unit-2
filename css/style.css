@@ -3,14 +3,30 @@
 	width: 800px;
 	display: inline-block;
 }
+body{
+	background:#D2FF80;
+	color:#750000;
+}
 
-#panel {
-    width: 16%;
+html {
+  overflow-y: scroll;
+}
+
+#content-pane {
+	border: solid gray 1px;
+    width: 35%;
     padding: 20px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
     line-height: 42px;
+	background:#C4C4BB;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    display: inline-block;
 }
 
 #forward {
@@ -21,4 +37,36 @@
 #reverse {
 	float: left;
 	margin-right: 5px;
+}
+
+.legend-control-container {
+	height: 115px;
+	width: 180px;
+	background-color: rgba(255,255,255,0.85);
+    padding: 10px;
+	text-align: top;
+    border: solid gray 1px;
+}
+
+.sequence-control-container {
+    width: 350px;
+    height: 20px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 250px;
+}
+
+.step {
+    width: 40px;
+}
+
+.step img {
+   width: 100%;
+   height: auto;
 }
